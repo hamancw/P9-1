@@ -32,4 +32,10 @@ int main() {
         }
     }
     cout << endl;
+
+    cout << "Reversed order: ";
+    for (int i = 9; i >= 0; --i) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 }
