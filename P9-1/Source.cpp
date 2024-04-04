@@ -38,4 +38,7 @@ int main() {
         cout << arr[i] << " ";
     }
     cout << endl;
+
+    cout << "First and last: ";
+    cout << arr[0] << " " << arr[9] << endl;
 }
